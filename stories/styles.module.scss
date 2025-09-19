@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  width: calc(100vw - 30px);
+  min-height: calc(24px + 48px + 24px + 7 * 24px);
+  overflow: hidden;
+}

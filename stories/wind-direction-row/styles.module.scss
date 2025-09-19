@@ -1,0 +1,26 @@
+.row {
+  display: contents;
+}
+
+.windAngleCell {
+  text-align: center;
+  font-size: clamp(10px, 0.9vw, 13px);
+  padding: 4px 0;
+  min-width: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: default;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: clamp(12px, 1vw, 16px);
+    height: clamp(12px, 1vw, 16px);
+    transform-origin: center center;
+  }
+}
+
+.dayEndBorder {
+  border-right: 1px dashed #ccc;
+}

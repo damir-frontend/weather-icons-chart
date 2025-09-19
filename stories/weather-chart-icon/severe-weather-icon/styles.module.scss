@@ -1,0 +1,10 @@
+.severeWeatherWrapper {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  gap: 2px;
+  pointer-events: none;
+}
