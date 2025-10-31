@@ -1,0 +1,25 @@
+.labelColumn {
+  padding-top: calc(24px + 12px);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  width: clamp(100px, 12vw, 170px);
+  cursor: default;
+
+  .labelCell {
+    font-size: clamp(10px, 1vw, 14px);
+    font-weight: 400;
+    color: #222;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+  }
+  .labelCell:first-child {
+    margin-bottom: 12px;
+  }
+  .timeZone {
+    cursor: pointer;
+    user-select: none;
+  }
+}

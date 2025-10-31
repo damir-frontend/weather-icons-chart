@@ -1,0 +1,55 @@
+.precipitationWrapper {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 100%; // добавлено!
+  display: flex;
+  justify-content: center; // добавлено!
+  gap: 2px;
+  pointer-events: none;
+}
+
+.mixed {
+  .precipitationIcon {
+    &:nth-child(1) {
+      position: relative;
+      transform: translate(5px, -1px);
+    }
+    &:nth-child(2) {
+      position: relative;
+      transform: translate(-5px, 5px);
+    }
+  }
+}
+
+.intensity-3 {
+  img {
+    &:nth-child(1) {
+      transform: translate(6px, 5px);
+    }
+    &:nth-child(2) {
+      position: relative;
+      transform: translate(0px, 1px);
+    }
+    &:nth-child(3) {
+      transform: translate(-6px, 5px);
+    }
+  }
+}
+
+.intensity-4 {
+  img {
+    &:nth-child(1) {
+      transform: translate(10px, 3px);
+    }
+    &:nth-child(2) {
+      transform: translate(5px, 0px);
+    }
+    &:nth-child(3) {
+      transform: translate(-5px, 5px);
+    }
+    &:nth-child(4) {
+      transform: translate(-10px, 3px);
+    }
+  }
+}

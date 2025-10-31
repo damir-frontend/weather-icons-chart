@@ -1,0 +1,18 @@
+.cell {
+  text-align: center;
+  font-size: clamp(10px, 0.9vw, 13px);
+  padding: 4px 0;
+  min-width: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: default;
+  // border-right: 1px dashed #ccc;
+}
+
+.night {
+  background-color: #eaeaf5;
+}
+
+.dayEndBorder {
+  border-right: 1px dashed #ccc;
+}

@@ -1,0 +1,19 @@
+.scrollWrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  // место для левого столбца меток-подписей, а потом добавить место для кнопки скроллинга
+  width: calc(100% - 170px);
+  height: 100%;
+  width: auto;
+}
+
+.weatherIconsChart {
+  width: 100%;
+  display: grid;
+  grid-auto-columns: 30px;
+  grid-template-rows: repeat(8, 24px);
+  min-width: max-content;
+  padding: 24px 10px 0px 10px;
+  font-family: sans-serif;
+  // border: 1px red dashed;
+}
