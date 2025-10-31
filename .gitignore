@@ -1,0 +1,21 @@
+node_modules
+package-lock.json
+
+# сборка и временные файлы
+dist/
+build/
+storybook-static/
+
+# кеши
+.cache/
+.vite/
+vite.config.ts.timestamp-*
+*.log
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+

@@ -1,0 +1,1 @@
+{"v":5,"entries":{"weather-iconschart--default":{"type":"story","id":"weather-iconschart--default","name":"Default","title":"Weather/IconsChart","importPath":"./stories/WeatherIconsChart.stories.tsx","componentPath":"./stories/ui.tsx","tags":["dev","test"]}}}
