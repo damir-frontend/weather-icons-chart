@@ -20,6 +20,19 @@ The component subscribes to **store** (`timeZoneStore`) and updates automaticall
 
 To see the components in action, check out the **live Storybook demo** [Weather Icons Chart](https://damir-frontend.github.io/weather-icons-chart/).
 
+## 🧪 Tests & Snapshots
+
+This project includes **snapshot tests** for all Storybook stories.  
+The `WeatherIconsChart` component has a snapshot test that ensures its **Default story** renders correctly and any unexpected UI changes will be caught automatically.
+
+Run tests locally:
+
+```bash
+npm run test
+# or
+npx vitest run --update
+```
+
 ## 🏗 Project Structure
 
 The project has a modular structure: each part of the interface is separated into its own subcomponent.
@@ -56,4 +69,3 @@ weather-icons-chart/
 npm install
 npm run storybook
 ```
-
